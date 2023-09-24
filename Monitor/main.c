@@ -44,7 +44,7 @@ void* provider(void* arg) {
 		}
 		ready = 1;
 		data = i;
-		pthread_cond_signal(&cond);		// Уведомление потока-потребителя о наступившем событии
+		pthread_cond_signal(&cond);	// Уведомление потока-потребителя о наступившем событии
 		pthread_mutex_unlock(&lock);	// Освобождение мьютекса
 	}
 	return NULL;
