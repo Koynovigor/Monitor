@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-#define NumberCons 17
+#define NumberCons 32
 
 bool ready = 0; // Формальный критерий проверки наступления события
 int data = 0;	// Разделяемые данные, передаваемые от 
